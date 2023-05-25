@@ -1,6 +1,8 @@
 package org.example;
 import javax.swing.*;
 
+//Username & Password is 'admin'
+
 public class EmployeeDataDialog extends JDialog {
 
     private boolean dialogResult = false;
@@ -27,7 +29,7 @@ public class EmployeeDataDialog extends JDialog {
 
         int option = JOptionPane.showConfirmDialog(this, fields, "Update Employee", JOptionPane.OK_CANCEL_OPTION);
         if (option == JOptionPane.OK_OPTION) {
-            // Retrieve the updated values
+            
             String lastName = lastNameField.getText();
             String firstName = firstNameField.getText();
             String sss = sssField.getText();
@@ -38,10 +40,10 @@ public class EmployeeDataDialog extends JDialog {
             // Store the employee data
             employeeData = new String[]{lastName, firstName, sss, philHealth, tin, pagibig};
 
-            // Set the dialog result to true
+            
             dialogResult = true;
 
-            // Close the dialog
+           
             dispose();
         } else {
             // User canceled the update operation
