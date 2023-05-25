@@ -9,6 +9,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Serial;
 
+//Username & Password is 'admin'
+
 public class LoginGUI extends JFrame implements ActionListener {
     @Serial
     private static final long serialVersionUID = 1L;
