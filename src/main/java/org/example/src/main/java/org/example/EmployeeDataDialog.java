@@ -1,7 +1,7 @@
 package org.example;
 import javax.swing.*;
 
-//Username & Password is 'admin'
+
 
 public class EmployeeDataDialog extends JDialog {
 
